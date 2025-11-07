@@ -5,7 +5,7 @@ import { useRouter } from 'vue-router'
 
 
 const tabbarItems = reactive([
-    { icon: Mountain, label: '首页', active: true, path: '' },
+    { icon: Mountain, label: '首页', active: true, path: '/' },
     { icon: MapPin, label: '路线', active: false, path: '/course' },
     { icon: Plus, label: '', active: false, path: '/create' },
     { icon: MessageCircle, label: '社区', active: false, path: '/community' },
