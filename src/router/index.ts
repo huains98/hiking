@@ -28,6 +28,16 @@ const routes = [
         ]
     },
     {
+        path: '/w',
+        component: () => import('../layouts/Default.vue'),
+        children:[
+            {
+                path: 'courseDetail',
+                component: () => import('../views/CourseDetail.vue')
+            }
+        ]
+    },
+    {
         path: '/guide',
         component: () => import('../views/Guide.vue'),
     },
